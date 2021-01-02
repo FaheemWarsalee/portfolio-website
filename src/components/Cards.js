@@ -17,7 +17,7 @@ function Cards() {
             />
 
             <CardItem
-              src="/images/japan-gates.jpg"
+              src="/images/placeholder.jpg"
               text="A Discord bot built in python to managine teams and voice channels for custom 10-Man Counter-Strike games using the FaceIt API."
               label="Discord-Faceit Bot"
               path="/projects"
