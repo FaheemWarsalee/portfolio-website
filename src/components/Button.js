@@ -1,9 +1,9 @@
-import React, { Children } from 'react';
+import React from 'react';
 import './Button.css';
 import { Link } from 'react-router-dom';
 
+// Array of variety of style options for buttons.
 const STYLES = ['btn--primary', 'btn--outline'];
-
 const SIZES = ['btn--medium', 'btn--large'];
 
 export const Button = ({
