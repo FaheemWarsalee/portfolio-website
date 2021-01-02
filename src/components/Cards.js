@@ -6,9 +6,9 @@ function Cards() {
   return (
     <div className="cards">
       <h1>My Projects</h1>
-      <div className="cards--container">
-        <div className="cards--wrapper">
-          <ul className="cards--items">
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
             <CardItem
               src="/images/placeholder.jpg"
               text="Website built using JavaScript, HTML and CSS that is similar to the Internet Movie Database (IMDB) website."
@@ -17,13 +17,13 @@ function Cards() {
             />
 
             <CardItem
-              src="/images/japan-lights.jpg"
+              src="/images/japan-gates.jpg"
               text="A Discord bot built in python to managine teams and voice channels for custom 10-Man Counter-Strike games using the FaceIt API."
               label="Discord-Faceit Bot"
               path="/projects"
             />
           </ul>
-          <ul className="cards--items">
+          <ul className="cards__items">
             <CardItem
               src="/images/placeholder.jpg"
               text="A 2D Game made using Java and Processing."
