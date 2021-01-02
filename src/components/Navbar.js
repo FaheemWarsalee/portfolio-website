@@ -19,7 +19,7 @@ function Navbar() {
     }
   }
   
-  //
+  // gives button persistence between refreshes of page.
   useEffect( () => {
     showButton()
   }, []);
