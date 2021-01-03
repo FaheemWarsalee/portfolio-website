@@ -10,14 +10,14 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="/images/placeholder.jpg"
-              text="Website built using JavaScript, HTML and CSS that is similar to the Internet Movie Database (IMDB) website."
+              src="/images/movie-database.png"
+              text="Website built using JavaScript, HTML and CSS that is a custome version of the Internet Movie Database (IMDB) website."
               label="MovieDataBase"
               path="/projects"
             />
 
             <CardItem
-              src="/images/placeholder.jpg"
+              src="/images/discord-faceit-bot.png"
               text="A Discord bot built in python to managine teams and voice channels for custom 10-Man Counter-Strike games using the FaceIt API."
               label="Discord-Faceit Bot"
               path="/projects"
@@ -25,8 +25,8 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="/images/placeholder.jpg"
-              text="A 2D Game made using Java and Processing."
+              src="/images/bbb-game.png"
+              text="A 2D Game made using Java and Processing in partners for my ICS4U Summative."
               label="Bella Bean's Bonstruction Adventure Game"
               path="/projects"
             />
