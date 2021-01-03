@@ -1,5 +1,6 @@
 # Portfolio Website
 My portfolio website to display all my projects.
+My first attempt at using React.js and Bootstrap to create a personal portfolio website.
 
 # How to start
 - Install project dependencies using `npm install` in the terminal to install all node packages using npm.
