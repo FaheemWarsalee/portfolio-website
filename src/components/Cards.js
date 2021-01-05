@@ -1,6 +1,6 @@
-import React from 'react'
-import CardItem from './CardItem';
-import '../css/Cards.css';
+import React from "react";
+import CardItem from "./CardItem";
+import "../css/Cards.css";
 
 function Cards() {
   return (
@@ -11,7 +11,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="/images/movie-database.png"
-              text="Website built using JavaScript, HTML and CSS that is a custome version of the Internet Movie Database (IMDB) website."
+              text="Website built using JavaScript, HTML and CSS that is a custom version of the Internet Movie Database (IMDB) website."
               label="MovieDataBase"
               path="/projects"
             />
@@ -49,4 +49,4 @@ function Cards() {
   );
 }
 
-export default Cards
+export default Cards;
